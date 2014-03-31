@@ -10,6 +10,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
 			# the provider: just return the user associated with the Authorization 
 			user = auth.user
 		else
+			
 		## Is a user signed in already? If not, then find or create the user
 		unless current_user
 			unless user = User.find_by_name(name) 
