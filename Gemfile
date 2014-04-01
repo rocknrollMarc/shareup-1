@@ -11,6 +11,8 @@ gem 'uuidtools'
 gem 'angularjs-rails', '~> 1.2.15'
 gem 'ngmin-rails'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'zurb-foundation'
+gem 'foundation-rails'
 
 
 # Use sqlite3 as the database for Active Record
