@@ -14,6 +14,7 @@
     <div class="container">
       <div data-ng-view></div>
     </div><!--/container-->
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
     <%= javascript_include_tag "application" %>
   </body>
 </html>
