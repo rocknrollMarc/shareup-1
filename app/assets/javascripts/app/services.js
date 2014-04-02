@@ -29,6 +29,7 @@ angular.module('myApp.services', [])
          {id: '@id'},
          {}
      );
+     return Share;
   })
 
   .factory('SessionService', function($http, $q) {

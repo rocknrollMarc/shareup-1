@@ -31,6 +31,7 @@ angular.module('myApp.directives', [])
   		require: 'ngModel',
   		link: function(scope, ele, attrs, ctrl) {
   			scope.$watch(attrs.ngModel, function(v) {
+
   				if (checking) clearTimeout(checking);
 
   				var value = ctrl.$viewValue;
@@ -53,7 +54,7 @@ angular.module('myApp.directives', [])
   							}
   						}
   					});
-  				}, 200);
+  				}, 300);
   			})
   		}
   	};
