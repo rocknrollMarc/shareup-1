@@ -16,3 +16,8 @@
 //= require angular-route
 //= require angular-resource
 //= require_tree .
+
+//= require foundation
+$(function(){
+    $(document).foundation();
+});
